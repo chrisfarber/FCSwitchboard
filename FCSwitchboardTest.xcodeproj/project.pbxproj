@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		833FA09E1505A1A6003A7DD1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833FA09D1505A1A6003A7DD1 /* Cocoa.framework */; };
+		833FA0A81505A1A6003A7DD1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 833FA0A61505A1A6003A7DD1 /* InfoPlist.strings */; };
+		833FA0AA1505A1A6003A7DD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 833FA0A91505A1A6003A7DD1 /* main.m */; };
+		833FA0AE1505A1A6003A7DD1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 833FA0AC1505A1A6003A7DD1 /* Credits.rtf */; };
+		833FA0B11505A1A6003A7DD1 /* FCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 833FA0B01505A1A6003A7DD1 /* FCAppDelegate.m */; };
+		833FA0B41505A1A6003A7DD1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 833FA0B21505A1A6003A7DD1 /* MainMenu.xib */; };
+		833FA0C31505A202003A7DD1 /* FCTwitterSwitchboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 833FA0C21505A202003A7DD1 /* FCTwitterSwitchboard.m */; };
+		833FA0C61505A762003A7DD1 /* FCSwitchboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 833FA0C51505A762003A7DD1 /* FCSwitchboard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		833FA0991505A1A6003A7DD1 /* FCSwitchboardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCSwitchboardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		833FA09D1505A1A6003A7DD1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		833FA0A01505A1A6003A7DD1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		833FA0A11505A1A6003A7DD1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		833FA0A21505A1A6003A7DD1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		833FA0A51505A1A6003A7DD1 /* FCSwitchboardTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FCSwitchboardTest-Info.plist"; sourceTree = "<group>"; };
+		833FA0A71505A1A6003A7DD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		833FA0A91505A1A6003A7DD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		833FA0AB1505A1A6003A7DD1 /* FCSwitchboardTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FCSwitchboardTest-Prefix.pch"; sourceTree = "<group>"; };
+		833FA0AD1505A1A6003A7DD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		833FA0AF1505A1A6003A7DD1 /* FCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAppDelegate.h; sourceTree = "<group>"; };
+		833FA0B01505A1A6003A7DD1 /* FCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAppDelegate.m; sourceTree = "<group>"; };
+		833FA0B31505A1A6003A7DD1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		833FA0C11505A202003A7DD1 /* FCTwitterSwitchboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCTwitterSwitchboard.h; sourceTree = "<group>"; };
+		833FA0C21505A202003A7DD1 /* FCTwitterSwitchboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCTwitterSwitchboard.m; sourceTree = "<group>"; };
+		833FA0C41505A762003A7DD1 /* FCSwitchboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCSwitchboard.h; sourceTree = "<group>"; };
+		833FA0C51505A762003A7DD1 /* FCSwitchboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCSwitchboard.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		833FA0961505A1A6003A7DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833FA09E1505A1A6003A7DD1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		833FA08E1505A1A6003A7DD1 = {
+			isa = PBXGroup;
+			children = (
+				833FA0C41505A762003A7DD1 /* FCSwitchboard.h */,
+				833FA0C51505A762003A7DD1 /* FCSwitchboard.m */,
+				833FA0A31505A1A6003A7DD1 /* FCSwitchboardTest */,
+				833FA09C1505A1A6003A7DD1 /* Frameworks */,
+				833FA09A1505A1A6003A7DD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		833FA09A1505A1A6003A7DD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				833FA0991505A1A6003A7DD1 /* FCSwitchboardTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833FA09C1505A1A6003A7DD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				833FA09D1505A1A6003A7DD1 /* Cocoa.framework */,
+				833FA09F1505A1A6003A7DD1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		833FA09F1505A1A6003A7DD1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				833FA0A01505A1A6003A7DD1 /* AppKit.framework */,
+				833FA0A11505A1A6003A7DD1 /* CoreData.framework */,
+				833FA0A21505A1A6003A7DD1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		833FA0A31505A1A6003A7DD1 /* FCSwitchboardTest */ = {
+			isa = PBXGroup;
+			children = (
+				833FA0AF1505A1A6003A7DD1 /* FCAppDelegate.h */,
+				833FA0B01505A1A6003A7DD1 /* FCAppDelegate.m */,
+				833FA0C11505A202003A7DD1 /* FCTwitterSwitchboard.h */,
+				833FA0C21505A202003A7DD1 /* FCTwitterSwitchboard.m */,
+				833FA0B21505A1A6003A7DD1 /* MainMenu.xib */,
+				833FA0A41505A1A6003A7DD1 /* Supporting Files */,
+			);
+			path = FCSwitchboardTest;
+			sourceTree = "<group>";
+		};
+		833FA0A41505A1A6003A7DD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				833FA0A51505A1A6003A7DD1 /* FCSwitchboardTest-Info.plist */,
+				833FA0A61505A1A6003A7DD1 /* InfoPlist.strings */,
+				833FA0A91505A1A6003A7DD1 /* main.m */,
+				833FA0AB1505A1A6003A7DD1 /* FCSwitchboardTest-Prefix.pch */,
+				833FA0AC1505A1A6003A7DD1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		833FA0981505A1A6003A7DD1 /* FCSwitchboardTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833FA0B71505A1A6003A7DD1 /* Build configuration list for PBXNativeTarget "FCSwitchboardTest" */;
+			buildPhases = (
+				833FA0951505A1A6003A7DD1 /* Sources */,
+				833FA0961505A1A6003A7DD1 /* Frameworks */,
+				833FA0971505A1A6003A7DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FCSwitchboardTest;
+			productName = FCSwitchboardTest;
+			productReference = 833FA0991505A1A6003A7DD1 /* FCSwitchboardTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		833FA0901505A1A6003A7DD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FC;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 833FA0931505A1A6003A7DD1 /* Build configuration list for PBXProject "FCSwitchboardTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 833FA08E1505A1A6003A7DD1;
+			productRefGroup = 833FA09A1505A1A6003A7DD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				833FA0981505A1A6003A7DD1 /* FCSwitchboardTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		833FA0971505A1A6003A7DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833FA0A81505A1A6003A7DD1 /* InfoPlist.strings in Resources */,
+				833FA0AE1505A1A6003A7DD1 /* Credits.rtf in Resources */,
+				833FA0B41505A1A6003A7DD1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		833FA0951505A1A6003A7DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833FA0AA1505A1A6003A7DD1 /* main.m in Sources */,
+				833FA0B11505A1A6003A7DD1 /* FCAppDelegate.m in Sources */,
+				833FA0C31505A202003A7DD1 /* FCTwitterSwitchboard.m in Sources */,
+				833FA0C61505A762003A7DD1 /* FCSwitchboard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		833FA0A61505A1A6003A7DD1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833FA0A71505A1A6003A7DD1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		833FA0AC1505A1A6003A7DD1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833FA0AD1505A1A6003A7DD1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		833FA0B21505A1A6003A7DD1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833FA0B31505A1A6003A7DD1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		833FA0B51505A1A6003A7DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		833FA0B61505A1A6003A7DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		833FA0B81505A1A6003A7DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FCSwitchboardTest/FCSwitchboardTest-Prefix.pch";
+				INFOPLIST_FILE = "FCSwitchboardTest/FCSwitchboardTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		833FA0B91505A1A6003A7DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FCSwitchboardTest/FCSwitchboardTest-Prefix.pch";
+				INFOPLIST_FILE = "FCSwitchboardTest/FCSwitchboardTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		833FA0931505A1A6003A7DD1 /* Build configuration list for PBXProject "FCSwitchboardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833FA0B51505A1A6003A7DD1 /* Debug */,
+				833FA0B61505A1A6003A7DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833FA0B71505A1A6003A7DD1 /* Build configuration list for PBXNativeTarget "FCSwitchboardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833FA0B81505A1A6003A7DD1 /* Debug */,
+				833FA0B91505A1A6003A7DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 833FA0901505A1A6003A7DD1 /* Project object */;
+}
